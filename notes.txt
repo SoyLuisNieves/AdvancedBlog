@@ -1,0 +1,25 @@
+INSTALAR VIRTUALENV
+pip install virtualenv
+
+INICIAR NUEVO ENTORNO VIRTUAL
+virtualenv . / nameVENV
+
+INICIAR PROYECTO EN DJANGO
+django-admin.py startproject NameProject
+
+DAR PERMISOS DE EJECUCION A MANAGE
+chmod +x manage.py
+
+LEVANTAR SERVIDOR DE PRUEBAS
+python manage.py runserver
+
+CREAR SUPERUSUARIO
+python manage.py createsuperuser
+
+CREAR APP
+python manage.py startapp NameApp
+
+
+MIGRACIONES
+
+Cuando hacemos cambios por ejemplo a un modelo, debemos aplicar primero makemigrations y despues migrate
